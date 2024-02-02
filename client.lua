@@ -37,7 +37,7 @@ RegisterCommand("brn_npcdrogavende:sell", function()
                 emP.MarcarOcorrencia()
 
 
-                Citizen.Wait(cooldownTime) -- Aguarde 10 segundos
+                Citizen.Wait(cooldownTime)
                 TriggerEvent("Notify", "aviso", "Você está liberado para vender outra droga!")
             end
         end
